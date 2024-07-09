@@ -1,0 +1,334 @@
+/*=========================================================
+  Start Header
+=========================================================*/
+@media (max-width: 992px) {
+}
+/*-------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+  ul {
+    padding-top: 20px;
+  }
+}
+.mt-5,
+.my-5 {
+  margin-top: 5rem !important;
+}
+/*-------------------------------------------------------------------------*/
+@media (max-width: 556px) {
+  .mt-5,
+  .my-5 {
+    margin-top: 1rem !important;
+  }
+}
+/*-------------------------------------------------------------------------*/
+@media (max-width: 480px) {
+  .mt-5,
+  .my-5 {
+    margin-top: 0rem !important;
+  }
+}
+
+@media (max-width: 320px) {
+}
+
+@media (max-width: 290px) {
+  .navbar-toggler {
+    margin-top: 8px;
+  }
+}
+/*End Header*/
+
+/* --------------------------------Cab Section Responsiveness -------------------------*/
+@media (max-width: 991px) {
+  .cab-right {
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .cab-right {
+    margin: auto;
+  }
+}
+
+@media (max-width: 556px) {
+  .cab .cab-left h1 {
+    font-size: 36px;
+    color: #101010;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 480px) {
+  .cab-right {
+    width: 320px;
+  }
+}
+@media (max-width: 320px) {
+  .cab-left {
+    padding: 20px;
+  }
+  .cab .cab-left h4 {
+    font-size: 25px;
+  }
+  .cab .cab-left h1 {
+    font-size: 33px;
+  }
+  .cab-right {
+    width: 320px;
+  }
+}
+/* -----------------------------------------270----------------------------------------*/
+/* @media (max-width: 270px) {
+  .cab-right {
+    width: 290px !important;
+  }
+} */
+
+/* ===========================cab from right==================== */
+
+@media (max-width: 480px) {
+  .cab-right {
+    width: 370px;
+  }
+}
+@media (max-width: 400px) {
+  .cab-right {
+    width: 320px;
+  }
+}
+@media (max-width: 340px) {
+  .cab-right {
+    width: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  .cab-right {
+    width: 270px;
+  }
+  .cab .cab-right form input[type="text"] {
+    width: 240px;
+  }
+}
+
+@media (max-width: 290px) {
+  .cab-right {
+    width: 260px;
+  }
+  .cab .cab-right form input[type="text"] {
+    width: 200px;
+  }
+}
+@media (max-width: 280px) {
+  .cab-right {
+    width: 250px;
+  }
+  .cab .cab-right form input[type="text"] {
+    width: 200px;
+  }
+}
+
+/* Start Card =============================================*/
+
+/* srar card ===========================*/
+@media (max-width: 1400px) {
+  .card-star img {
+    margin-left: 104px;
+    position: absolute;
+    display: none;
+  }
+}
+@media (max-width: 1200px) {
+  .card-star img {
+    margin-left: 104px;
+    position: absolute;
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-star img {
+    margin-left: 74px;
+    position: absolute;
+    display: none;
+  }
+  .card {
+    padding-bottom: 85px;
+    margin-top: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .card {
+    margin-top: 100px;
+    display: none;
+  }
+  .card-star img {
+    margin-left: 274px;
+    position: absolute;
+    display: none;
+  }
+}
+@media (max-width: 556px) {
+  .card-star img {
+    margin-left: 192px;
+    position: absolute;
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .card-star img {
+    margin-left: 1px;
+    position: absolute;
+    display: none;
+  }
+}
+/* End Card ============================================== */
+
+/* Content Start ========================================= */
+@media (max-width: 1200px) {
+  .content {
+    height: 1000px;
+  }
+}
+@media (max-width: 992px) {
+  .content {
+    height: 1100px;
+  }
+  .content .content-info .content-text p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 820px) {
+  .content {
+    height: 1150px;
+  }
+}
+@media (max-width: 768px) {
+  .content {
+    height: 1250px;
+  }
+  .content .content-info .content-text p {
+    font-size: 17px;
+  }
+}
+@media (max-width: 556px) {
+  .content {
+    height: 1100px;
+  }
+}
+@media (max-width: 480px) {
+  .content {
+    height: 1200px;
+  }
+  .content .content-info .content-text p {
+    font-size: 15px;
+  }
+  .content .content-info .content-text h4 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 320px) {
+  .content {
+    height: 1100px;
+  }
+  .content .content-info .content-text p {
+    font-size: 12px;
+  }
+  .content .content-info .content-text h4 {
+    font-size: 13px;
+  }
+}
+/* Content End ========================================= */
+
+/* Start service section ============================== */
+@media (max-width: 768px) {
+  .service-left-app-icon {
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+  }
+  .service-left-app-icon img {
+    flex-direction: row;
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .service .service-info h1 {
+    font-size: 30px;
+  }
+  .service .service-info h4 {
+    font-size: 27px;
+  }
+}
+/* End service section ====== */
+
+/* Start testimonial section ============================ */
+@media (max-width: 992px) {
+  .testim .testim-box {
+    margin-top: 30px;
+  }
+  .testim {
+    height: 800px;
+  }
+}
+@media (max-width: 768px) {
+  .testim .testim-box {
+    margin-top: 30px;
+  }
+  .testim {
+    height: 800px;
+  }
+}
+@media (max-width: 556px) {
+  .testim {
+    height: 900px;
+  }
+}
+@media (max-width: 480px) {
+  .testim {
+    height: 900px;
+  }
+  .testim .testim-box p {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) {
+  .testim {
+    height: 800px;
+  }
+  .testim .testim-box .testim-fac h6 {
+    font-size: 14px;
+  }
+}
+@media (max-width: 290px) {
+  .testim {
+    height: 850px;
+  }
+  .testim .testim-info h1 {
+    font-size: 35px;
+  }
+  .testim .testim-info h2 {
+    font-size: 30px;
+  }
+  .testim .testim-box {
+    padding: 40px;
+    border-radius: 20px;
+  }
+  .testim .testim-box .testim-fac h4 {
+    font-size: 12px;
+  }
+  .testim .testim-box .testim-fac h6 {
+    font-size: 11px;
+  }
+}
+/* End testimonial section ======*/
+
+/* Start info section============================================= */
+
+/* End info section ===== */
+
+/* start contact ===================================================*/
+        
+ /* End contact  ========*/
