@@ -35,6 +35,10 @@
   .navbar-toggler {
     margin-top: 8px;
   }
+  header{
+    height: 590px;
+  }
+  
 }
 /*End Header*/
 
@@ -230,7 +234,7 @@
 }
 @media (max-width: 320px) {
   .content {
-    height: 1100px;
+    height: 1250px;
   }
   .content .content-info .content-text p {
     font-size: 12px;
@@ -327,8 +331,17 @@
 
 /* Start info section============================================= */
 
+/* don't need  */
+
 /* End info section ===== */
 
 /* start contact ===================================================*/
-        
+@media (max-width: 290px) {
+  .contact .download span {
+    font-size: 15px;
+  }
+  .contact .download i.fa-apple {
+    margin-left: 62px;
+  }
+}
  /* End contact  ========*/
