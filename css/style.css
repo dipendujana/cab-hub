@@ -233,7 +233,8 @@ header .header-info img {
 }
 .card .card-body p {
   font-size: 17px;
-  font-weight: 100px;
+  font-weight: normal;
+  /* font-weight: bold; */
   text-transform: lowercase;
 }
 /* End Card ============================================== */

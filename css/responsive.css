@@ -19,6 +19,9 @@
   .my-5 {
     margin-top: 1rem !important;
   }
+  header {
+    height: 630px;
+  }
 }
 /*-------------------------------------------------------------------------*/
 @media (max-width: 480px) {
@@ -26,19 +29,28 @@
   .my-5 {
     margin-top: 0rem !important;
   }
+  header {
+    height: 620px;
+  }
 }
-
+@media (max-width: 420px) {
+  header {
+    height: 590px;
+  }
+}
 @media (max-width: 320px) {
+  header {
+    height: 550px;
+  }
 }
 
 @media (max-width: 290px) {
   .navbar-toggler {
     margin-top: 8px;
   }
-  header{
-    height: 590px;
+  header {
+    height: 530px;
   }
-  
 }
 /*End Header*/
 
@@ -52,6 +64,9 @@
 @media (max-width: 768px) {
   .cab-right {
     margin: auto;
+  }
+  .cab-left {
+    padding: 10px;
   }
 }
 
@@ -67,10 +82,17 @@
   .cab-right {
     width: 320px;
   }
+  .cab-left {
+    padding: 10px;
+  }
+  .cab .cab-left h4 {
+    font-size: 22px;
+  }
 }
 @media (max-width: 320px) {
   .cab-left {
-    padding: 20px;
+    padding: 10px;
+    /* margin-top: 3rem!important; */
   }
   .cab .cab-left h4 {
     font-size: 25px;
@@ -149,6 +171,9 @@
     position: absolute;
     display: none;
   }
+  .card .card-body h2 {
+    font-size: 30px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -161,11 +186,13 @@
     padding-bottom: 85px;
     margin-top: 100px;
   }
-}
 @media (max-width: 768px) {
   .card {
-    margin-top: 100px;
+    /* margin-top: 100px; */
     display: none;
+  }
+  .card .card-car-1{
+     margin-top: 10px;
   }
   .card-star img {
     margin-left: 274px;
@@ -223,7 +250,7 @@
 }
 @media (max-width: 480px) {
   .content {
-    height: 1200px;
+    height: 1370px;
   }
   .content .content-info .content-text p {
     font-size: 15px;
@@ -235,6 +262,9 @@
 @media (max-width: 320px) {
   .content {
     height: 1250px;
+  }
+  .content .content-info img{
+    height: 60px;
   }
   .content .content-info .content-text p {
     font-size: 12px;
@@ -257,6 +287,9 @@
     padding: 10px;
     margin-top: 10px;
   }
+  .service-left {
+    padding: 17px;
+  }
 }
 @media (max-width: 320px) {
   .service .service-info h1 {
@@ -264,6 +297,9 @@
   }
   .service .service-info h4 {
     font-size: 27px;
+  }
+  .service-left {
+    padding: 17px;
   }
 }
 /* End service section ====== */
@@ -344,4 +380,4 @@
     margin-left: 62px;
   }
 }
- /* End contact  ========*/
+/* End contact  ========*/
