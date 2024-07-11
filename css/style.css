@@ -206,8 +206,9 @@ header .header-info img {
   border: 0;
   border-bottom: 3px solid #e3e4e4;
   border-radius: 0;
-  /* font-family: "Lato", sans-serif;
-  font-family: "Bebas Neue", cursive; */
+  color: black;
+  font-weight: 500;
+  font-family: "Lato", sans-serif;
 }
 .cab .cab-right form select {
   border: 0;
@@ -273,6 +274,10 @@ header .header-info img {
 .service-left h4 {
   font-size: 30px;
   color: #101010;
+}
+.service-left p {
+  text-transform: lowercase;
+  font-weight: normal;
 }
 /* End service section ================================ */
 
